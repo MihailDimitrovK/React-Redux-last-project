@@ -1,0 +1,42 @@
+.container {
+  margin: 50px auto;
+  width: 1000px;
+  top: 50px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: fixed;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  font-size: 14px;
+  color: #c1468f;
+  background: #fff;
+}
+
+.header h3:first-child {
+  flex-basis: 33%;
+  padding-left: 30px;
+}
+
+.li {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin: 5px 0;
+  background: #fff;
+}
+.li:hover{
+    cursor: pointer;
+    background: #f4f4f5;
+}
+
+.li div:first-child {
+  flex-basis: 33%;
+  padding-left: 30px;
+}
